@@ -14,3 +14,13 @@ Extra Credit
 * Get missed snapshots for these objects
 * Modular design of your code/project
 * Structured output, objects
+
+## Quick note for testers
+
+All my projects relies on 3 files : 
+
+* The Rubrik Framework that enabled functions who are calling Rubrik APIs (rkFramework.php);
+* The credential files that grant access to a specific Rubrik cluster with specific user name and password (rkCredentials.php);
+* The project itself (whatever masterBuilder-x.php)
+
+Ideally they must be in the same directory to maintain consistency.
