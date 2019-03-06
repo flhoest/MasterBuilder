@@ -21,4 +21,29 @@ Extra Credit
 First, it has been tested on MacOS. You need php-cli library installed.
 * Create a folder to store all the required files
 * Transfer the MasterBuilder_1.php script
-* Transfer the Rubrik PHP Framwork that can be found here : 
+* Transfer the Rubrik PHP Framwork that can be found here : https://github.com/flhoest/Rubrik/blob/master/rkFramework.php
+* Create a file called rkCredentials.php with the following content : 
+
+```php
+<?PHP
+
+// My cluster
+
+	$clusterConnect=array(
+		"username" => "my_username",
+		"password" => "my_password",
+		"ip" => "127.0.0.1",
+	);
+
+?>
+```
+
+Be sure to match with your cluster creds.
+
+Then simply run the script like this : 
+
+```php -f MasterBuilder_1.php
+```
+
+Have fun !
+
