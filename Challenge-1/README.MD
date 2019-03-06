@@ -38,11 +38,12 @@ First, it has been tested on MacOS. You need php-cli library installed.
 ?>
 ```
 
-Be sure to match with your cluster creds.
+Be sure to match with your cluster creds and IP.
 
 Then simply run the script like this : 
 
-```php -f MasterBuilder_1.php
+```
+php -f MasterBuilder_1.php
 ```
 
 Have fun !
