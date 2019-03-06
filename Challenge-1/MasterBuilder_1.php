@@ -23,7 +23,7 @@
 	// =========================================================================================================================================
 	
 	// Start the clock
-    $time1=time();
+    	$time1=time();
 		
 	$totalVM=0;
 	system('clear');
@@ -128,8 +128,8 @@
 	}
 	
 	// End the clock
-    $time2=time();
-    $elapsed=$time2-$time1;
+    	$time2=time();
+    	$elapsed=$time2-$time1;
 
 	print("Processing time : ".rkColorOutput(date('H:i:s',$elapsed)."\n"));	
 	print("\nEnd of script.\n");
