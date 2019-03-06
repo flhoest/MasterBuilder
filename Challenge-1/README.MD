@@ -15,6 +15,7 @@ Extra Credit
 * Modular design of your code/project
 * Structured output, objects
 
+---
 
 ### How to run this script
 
