@@ -19,10 +19,11 @@ Extra Credit
 
 ### How to run this script
 
-First, it has been tested on MacOS. You need php-cli library installed.
-* Create a folder to store all the required files
-* Transfer the MasterBuilder_1.php script
-* Transfer the Rubrik PHP Framwork that can be found here : https://github.com/flhoest/Rubrik/blob/master/rkFramework.php
+First of all, it has been tested on MacOS and Linux environments, I have no idea on how to run this on Windows. You will need php-cli library installed (yum install php-cli -y). Next, 
+
+* Create a folder to store all the required files;
+* Transfer the MasterBuilder_1.php script;
+* Transfer the Rubrik PHP Framwork that can be found [here](https://github.com/flhoest/Rubrik/blob/master/rkFramework.php)
 * Create a file called rkCredentials.php with the following content : 
 
 ```php
@@ -39,7 +40,7 @@ First, it has been tested on MacOS. You need php-cli library installed.
 ?>
 ```
 
-Be sure to match with your cluster creds and IP.
+Be sure to have a match with your cluster creds and IP.
 
 Then simply run the script like this : 
 
