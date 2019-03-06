@@ -14,3 +14,11 @@ Extra Credit
 * Get missed snapshots for these objects
 * Modular design of your code/project
 * Structured output, objects
+
+
+### How to run this script
+
+First, it has been tested on MacOS. You need php-cli library installed.
+* Create a folder to store all the required files
+* Transfer the MasterBuilder_1.php script
+* Transfer the Rubrik PHP Framwork that can be found here : 
