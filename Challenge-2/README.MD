@@ -4,6 +4,7 @@ Your Rubrik cluster has been successfully running with the built-in reporting ca
 You’ll have to gather data on all the different SLAs on your cluster and take a look at what interesting data you can collect about your SLAs. Because this is a report, we’ll want you to present data that is actually actionable, so select relevant information to report upon.
 
 You have until Friday, April 12th to comment on this thread with your code.
+
 Design points
 Code runs without errors
 All backup workloads information
@@ -14,6 +15,7 @@ SLA Information
 Which SLAs are there
 How many SLAs with no assigned objects
 Usage/growth per SLA
+
 Extra Credit
 What other interesting data can you report on, be creative!
 Different ways of displaying your results (xml/json/markdown)
