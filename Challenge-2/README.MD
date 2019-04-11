@@ -28,7 +28,7 @@ Make it pretty, think of generated html, pdf, pptx, docx any kind of formatted
 First of all, it has been tested on MacOS and Linux environments, I have no idea on how to run this on Windows. You will need php-cli library installed (yum install php-cli -y). Next, 
 
 * Create a folder to store all the required files;
-* Transfer the MasterBuilder_1.php script;
+* Transfer the MasterBuilder_2.php script;
 * Transfer the Rubrik PHP Framwork that can be found [here](https://github.com/flhoest/Rubrik/blob/master/rkFramework.php)
 * Create a file called rkCredentials.php with the following content : 
 
@@ -47,6 +47,8 @@ First of all, it has been tested on MacOS and Linux environments, I have no idea
 ```
 
 Be sure to have a match with your cluster creds and IP.
+
+Edit the MasterBuilder_2.php challenge and look at the top of the script to set the configuration paramters.
 
 Then simply run the script like this : 
 
