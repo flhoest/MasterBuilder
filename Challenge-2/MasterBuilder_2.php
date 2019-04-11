@@ -95,35 +95,31 @@
 		}";
 
 	// Define when the report has to be sent out to $reportRecipient
-	$reportSchedule="0";
+	$reportSchedule="8";
 	
 	// The beow line convert the time to the cluster time to avoid confusion.
 	// If you want your cluster at 8pm and your cluster is in another time zone, I'll make sure the right time is set in the cluster,
 	// so you have your report at 8pm.
-	$clusterTime=date_convert($reportSchedule,$dTZ, 'H', $clusterTZ, 'H');
+	$clusterTime=date_convert($reportSchedule,$dTZ, 'H', $clusterTZ, 'G');
 
 	// This is the recipient of the report. Enter any valid email address.
 	$reportRecipient="flhoest@pccwglobal.com";
 
 	// This is the definition of the schedule, avoid touching this section ...
-	$scheduleDefinition="{
-			  \"timeAttributes\": {
-				\"dailyScheduleHour\": ".$clusterTime.",
-				\"weeklyScheduleHour\": 0,
-				\"daysOfWeek\": [
-				  0
-				],
-				\"monthlyScheduleHour\": 0,
-				\"dayOfMonth\": 0
-			  },
-			  \"emailAddresses\": [
-				\"".$reportRecipient."\"
-			  ],
-			  \"attachments\": [
-				\"Csv\"
-			  ]
-			}";
-
+	$scheduleDefinition="
+		  {
+			\"emailAddresses\": [
+			  \"".$reportRecipient."\"
+			],
+			\"attachments\": [
+			  \"Csv\"
+			],
+			\"timeAttributes\": {
+			  \"dailyScheduleHour\": ".$clusterTime."
+			},
+			\"status\": \"Active\"
+		  }";
+					
 	// ------------------------------------------------
 	// Entry point
 	// ------------------------------------------------
